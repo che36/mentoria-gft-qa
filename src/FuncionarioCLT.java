@@ -13,4 +13,14 @@ public abstract class FuncionarioCLT {
 
     public FuncionarioCLT() {
     }
+
+    @Override
+    public String toString() {
+        return "FuncionarioCLT{" +
+                "nome='" + nome + '\'' +
+                ", documento='" + documento + '\'' +
+                ", valorSalario=" + valorSalario +
+                ", endereco=" + endereco +
+                '}';
+    }
 }
