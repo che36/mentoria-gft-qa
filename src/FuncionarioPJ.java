@@ -1,0 +1,8 @@
+public abstract class FuncionarioPJ {
+    private String nome;
+    private String documento;
+    private Endereco endereco;
+    private Double horasTrabalhadas;
+    private Double valorHora;
+    private Double valorRemuneracao;
+}
