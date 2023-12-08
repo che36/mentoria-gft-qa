@@ -24,7 +24,7 @@ public class Main {
         gerente.setHorasTrabalhadas(20d);
         gerente.setValorHora(100d);
         gerente.calculaRemuneracao();
-
+        gerente.calculaBonificacao(10d);
         System.out.println(gerente);
     }
 }
