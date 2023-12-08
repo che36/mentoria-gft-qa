@@ -6,10 +6,11 @@ public class Gerente extends FuncionarioPJ {
         return "Gerente{" +
                 "nome='" + super.getNome() + '\'' +
                 ", documento='" + super.getDocumento() + '\'' +
-                ", endereco=" + super.getEndereco() +
+                ", endereco=" + super.getEndereco().getRua() +
                 ", horasTrabalhadas=" + super.getHorasTrabalhadas() +
                 ", valorHora=" + super.getValorHora() +
                 ", valorRemuneracao=" + super.getValorRemuneracao() +
+                ",valorBonificacao=" + this.valorBonificacao +
                 '}';
     }
 }
