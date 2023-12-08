@@ -14,6 +14,6 @@ public class Vendedor extends FuncionarioCLT implements CalculaBonificacao {
 
     @Override
     public void calculaBonificacao(Double porcentagemBonificacao) {
-
+        this.valorBonificacao = this.valorSalario * (porcentagemBonificacao / 100d);
     }
 }
