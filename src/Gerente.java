@@ -1,4 +1,6 @@
 public class Gerente extends FuncionarioPJ {
+    private Double valorBonificacao;
+
     @Override
     public String toString() {
         return "Gerente{" +
